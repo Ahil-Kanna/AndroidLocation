@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.androidlocation.Main2Activity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/w5"
+        android:id="@+id/imageView3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:scaleType="centerCrop" />
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/colorAccent"
+        android:theme="?attr/actionBarTheme"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/toolbar2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_info_details"
+        android:id="@+id/imageButton2"
+        android:background="@android:color/transparent"
+        android:layout_alignBottom="@+id/toolbar2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="14dp"
+        android:onClick="credits"/>
+
+    <TextView
+        android:text="Shop Advisor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView3"
+        android:layout_alignTop="@+id/imageButton2"
+        android:fontFamily="sans-serif"
+        android:textSize="30sp"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:text="SHOP OWNER"
+        android:onClick="were1"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="170dp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_below="@+id/toolbar2"
+        android:layout_centerHorizontal="true"
+        android:textColor="?attr/colorBackgroundFloating"
+        android:background="@android:color/holo_purple"
+        android:textSize="16sp"
+        android:layout_width="120dp" />
+
+    <Button
+        android:text="User"
+        android:onClick="were"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        tools:layout_constraintTop_creator="1"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="170dp"
+        android:background="@android:color/holo_purple"
+        android:textColor="@android:color/background_light"
+        android:textSize="16sp"
+        android:layout_width="120dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        app:srcCompat="@drawable/w2"
+        android:id="@+id/imageView4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/w1"
+        android:layout_below="@+id/toolbar2"
+        android:layout_toStartOf="@+id/textView3"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="53dp"
+        android:id="@+id/imageView6" />
+
+    <ImageView
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/w3"
+        android:id="@+id/imageView10"
+        android:layout_width="100dp"
+        android:scaleType="fitCenter"
+        android:layout_above="@+id/button3"
+        android:layout_toEndOf="@+id/textView3"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="33dp" />
+
+</RelativeLayout>

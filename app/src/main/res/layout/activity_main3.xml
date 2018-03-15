@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.androidlocation.Main3Activity">
+
+    <TextView
+        android:text=" "
+        android:layout_width="368dp"
+        android:layout_height="20dp"
+        tools:layout_editor_absoluteY="28dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:id="@+id/textView2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        tools:layout_editor_absoluteY="59dp"
+        tools:layout_editor_absoluteX="-66dp"
+        android:id="@+id/editText" />
+</android.support.constraint.ConstraintLayout>

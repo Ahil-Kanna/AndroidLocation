@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Contact us">
+        <menu>
+            <item
+                android:icon="@drawable/mail"
+                android:title="Ofertas@gmail.com"/>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/loca"
+                android:title="Location" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/log"
+                android:icon="@drawable/close"
+                android:title="LOGOUT"/>
+
+        </menu>
+    </item>
+
+</menu>
